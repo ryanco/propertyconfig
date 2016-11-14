@@ -19,7 +19,7 @@ public class BlueprintBeanPropertiesOverrideFromTestRouteTest extends CamelBluep
         props.put("greeting", "Hello from test");
 
         // return the persistence-id to use
-        return "HelloBean";
+        return "com.yarsquidy.props.propertyconfig";
     }
 
     @Test

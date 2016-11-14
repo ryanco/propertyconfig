@@ -14,7 +14,7 @@ public class BlueprintBeanPropertiesOverrideFromFileRouteTest extends CamelBluep
     @Override
     protected String[] loadConfigAdminConfigurationFile() {
         // which .cfg file to use, and the name of the persistence-id
-        return new String[]{"src/test/resources/etc/HelloBean.cfg", "HelloBean"};
+        return new String[]{"src/test/resources/etc/HelloBean.cfg", "com.yarsquidy.props.propertyconfig"};
     }
 
     @Test
